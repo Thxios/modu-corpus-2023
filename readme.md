@@ -16,7 +16,7 @@ pip3 install -r requirements.txt
 python3 json_to_csv.py [과제_데이터_경로] --output_dir data
 python3 preprocess.py \
   --train_csv data/train.csv data/val.csv \
-  --test_csv data/train.csv data/test.csv \
+  --test_csv data/test.csv \
   --output_dir processed
 ```
 
